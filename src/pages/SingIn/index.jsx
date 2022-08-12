@@ -1,32 +1,32 @@
 import './style.css';
 import { BsEnvelope } from 'react-icons/bs';
 import { BsLock } from 'react-icons/bs';
-import logo from '../../assets/Bibliophile.svg';
+import mascote  from '../../assets/mascote.png';
 
 export function SingIn() {
     return(
     <div className="container">
         <div className="content">
-            <div class="first-column">
-                <img src={logo} alt='logo'/>
+            <div className="logo">
+                <img className="img-mascote" src={mascote} alt="Mascote" />
+                <h2 className="tittle-primary">
+                    <span className="tittle__kids">Kids</span>
+                    <span className="tittle__books">Books</span>
+                </h2>
             </div>
-            <div className="second-column">
-                <h2 className="tittle-primary">Login</h2>
-                <p className="description">Bem vindo de volta!</p>
-                <form className="form-login">
-                    <label htmlFor="" className="label-input">
-                        <BsEnvelope className="icon-modify" />
-                        <input type="email" placeholder="E-mail" />
-                    </label>
-                    <label htmlFor="" className="label-input">
-                        <BsLock className="icon-modify" />
-                        <input type="password" placeholder="Senha" />
-                    </label>
-                    {/* <a href="#esqueceusenha" className="link">Esqueceu sua senha?</a> */}
-                    <button className="btn-login">LOGIN</button>
-                </form>
-                <a href="#paracadastro" className="link">Cadastre-se</a>
-            </div>
+            <form className="form-login">
+                <label htmlFor="" className="label-input">
+                    <BsEnvelope className="icon-modify" />
+                    <input type="email" placeholder="E-mail" />
+                </label>
+                <label htmlFor="" className="label-input">
+                    <BsLock className="icon-modify" />
+                    <input type="password" placeholder="Senha" />
+                </label>
+                <a href="#esqueceusenha" className="link password">Esqueceu sua senha?</a>
+                <button className="btn-login">ENTRAR</button>
+            </form>
+            <a href="#paracadastro" className="link">Cadastre-se</a>
         </div>
     </div>
     )
