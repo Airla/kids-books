@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { SingIn } from './pages/SingIn';
+import './index.css';
+import MyRoutes from './routes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SingIn />
+    <MyRoutes />
   </React.StrictMode>
 );

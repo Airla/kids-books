@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+}
+
+.img-mascote {
+    width: 40px;
+}
+
+.tittle-primary {
+    color: #F75E25;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 15px;
+}
+
+.tittle__books {
+    color: #1D8DFF;
+    margin-left: 5px;
+}
