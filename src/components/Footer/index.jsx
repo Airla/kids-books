@@ -2,6 +2,11 @@ import './style.css';
 
 export default function Footer() {
     return(
-        <div className="footer"></div>
+        <div className="footer">
+
+
+                       
+               
+        </div>
     )
 }

@@ -1,0 +1,57 @@
+
+
+
+.book {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 412px;
+    top: 314px;
+    
+
+}
+.audio {
+    position: absolute;
+    
+    width: 90px;
+    height: 90px;
+    left: 675px;
+    top: 314px;
+
+
+   
+}
+.libra {
+    position: absolute;
+    
+    width: 90px;
+    height: 90px;
+    left: 895px;
+    top: 314px;
+}
+.form-ebook input {
+    position: absolute;
+    
+    width: 438px;
+    height: 28px;
+    right: 366px;
+    
+    top: 187px;
+    padding: 20px;
+   
+    border-radius: 8px;
+    color:#565656;
+    
+    filter: drop-shadow(2px 2px 2px rgba(10, 10, 10, 0.25));
+    
+    border: none;
+}
+.img mascote{
+    
+}
+    
+    
+
+    
+
+    
