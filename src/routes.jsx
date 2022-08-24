@@ -3,7 +3,7 @@ import {
   Routes,
   Route,
   // Navigate,
-  // Outlet
+  // Outlets
 } from "react-router-dom";
 
 import SingIn from './pages/SingIn';

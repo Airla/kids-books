@@ -11,7 +11,7 @@ import Header from '../../components/Header';
 export default function SignUp() {
     return (
         <Container>
-            <Content>
+            <Content nameClass="sign-up">
                 <Header/>
                 <Main>
                     <form className="form-sign-up">

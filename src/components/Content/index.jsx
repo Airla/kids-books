@@ -1,9 +1,9 @@
 import './style.css';
 
-export default function Content({ children }) {
+export default function Content(props) {
     return(
-        <div className="content">
-            {children}
+        <div className={`content ${props.nameClass}`}>
+            {props.children}
         </div>
     )
 }
