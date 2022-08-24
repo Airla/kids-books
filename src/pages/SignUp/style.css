@@ -16,7 +16,7 @@
     padding: 10px;
 }
 
-.label-input {
+.label-input-sign-up {
     display: flex;
     align-items: center;
     background-color: #ecf0f1;
@@ -54,12 +54,12 @@ input:focus {
     margin: 5px;
 }
 
-.link {
+.link-sign-up {
     color: #34495e;
     font-size: 14px;
     margin: 0px;
     text-align: center;
 }
-.link::first-letter {
+.link-sign-up::first-letter {
     text-transform: capitalize;
 }

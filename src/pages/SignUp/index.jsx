@@ -15,25 +15,25 @@ export default function SignUp() {
                 <Header/>
                 <Main>
                     <form className="form-sign-up">
-                        <label htmlFor="" className="label-input">
+                        <label htmlFor="" className="label-input-sign-up">
                             <FiUser className="icon-modify" />
                             <input type="text" placeholder="Nome *" />
                         </label>
-                        <label htmlFor="" className="label-input">
+                        <label htmlFor="" className="label-input-sign-up">
                             <BsEnvelope className="icon-modify" />
                             <input type="email" placeholder="E-mail *" />
                         </label>
-                        <label htmlFor="" className="label-input">
+                        <label htmlFor="" className="label-input-sign-up">
                             <FiLock className="icon-modify" />
                             <input type="password" placeholder="Senha *" />
                         </label>
-                        <label htmlFor="" className="label-input">
+                        <label htmlFor="" className="label-input-sign-up">
                             <FiLock className="icon-modify" />
                             <input type="password" placeholder="Confirmar Senha *" />
                         </label>
                         <button className="btn-sign-up">INSCREVER-SE</button>
                     </form>
-                    <Link to="/login" className="link">Entrar</Link>
+                    <Link to="/login" className="link-sign-up">Entrar</Link>
                 </Main>
             </Content>
         </Container>
