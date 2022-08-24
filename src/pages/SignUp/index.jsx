@@ -1,6 +1,7 @@
 import './style.css';
 import { FiUser } from 'react-icons/fi';
 import { FiLock } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 import { BsEnvelope } from 'react-icons/bs';
 import Container  from '../../components/Conteiner';
 import Content from '../../components/Content';
@@ -32,7 +33,7 @@ export default function SignUp() {
                         </label>
                         <button className="btn-sign-up">INSCREVER-SE</button>
                     </form>
-                    <a href="#paralogin" className="link">Entrar</a>
+                    <Link to="/login" className="link">Entrar</Link>
                 </Main>
             </Content>
         </Container>
