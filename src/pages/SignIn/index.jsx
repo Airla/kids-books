@@ -12,19 +12,19 @@ export default function SignIn() {
         <Content>
             <Header/>
             <Main>
-                <form className="form-login">
-                    <label htmlFor="" className="label-input">
-                        <BsEnvelope className="icon-modify" />
+                <form className="form-sign-in">
+                    <label htmlFor="" className="label-input-sign-in">
+                        <BsEnvelope className="icon-modify-sign-in" />
                         <input type="email" placeholder="E-mail" />
                     </label>
-                    <label htmlFor="" className="label-input">
-                        <BsLock className="icon-modify" />
+                    <label htmlFor="" className="label-input-sign-in">
+                        <BsLock className="icon-modify-sign-in" />
                         <input type="password" placeholder="Senha" />
                     </label>
-                    <a href="#esqueceusenha" className="link password">Esqueceu sua senha?</a>
-                    <button className="btn-login">ENTRAR</button>
+                    <a href="#esqueceusenha" className="link-sign-in password">Esqueceu sua senha?</a>
+                    <button className="btn-sign-in">ENTRAR</button>
                 </form>
-                <a href="#paracadastro" className="link">Cadastre-se</a>
+                <a href="#paracadastro" className="link-sign-in">Cadastre-se</a>
             </Main>
         </Content>
     </Container>

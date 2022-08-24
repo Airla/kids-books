@@ -1,10 +1,10 @@
-.form-login {
+.form-sign-in {
     display: flex;
     flex-direction: column;
     width: 55%;
 }
 
-.form-login input{
+.form-sign-in input{
     height: 45px;
     border: none;
     background-color: #ecf0f1;
@@ -12,21 +12,14 @@
     padding: 20px;
 }
 
-.label-input {
+.label-input-sign-in {
     display: flex;
     align-items: center;
     background-color: #ecf0f1;
     margin: 8px;
 }
 
-.description {
-    color: #34495e;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 30px;
-}
-
-.btn-login {
+.btn-sign-in {
     border-radius: 15px;
     text-transform: uppercase;
     font-size: 10px;
@@ -41,25 +34,24 @@
     margin: 20px;
 }
 
-.btn-login:hover {
+.btn-sign-in:hover {
     filter: brightness(1.2);
     cursor: pointer;
 }
 
-.icon-modify {
+.icon-modify-sign-in {
     color: #7f8c8d;
-    size: 5px;
-    margin-left: 5px;
-    /* padding: 0 5px; */
+    size: 20px;
+    margin: 5px;
 }
 
-.link {
+.link-sign-in {
     color: #34495e;
     font-size: 14px;
     margin: 15px 0;
     text-align: center;
 }
-.link::first-letter {
+.link-sign-in::first-letter {
     text-transform: capitalize;
 }
 
