@@ -1,4 +1,5 @@
 import './style.css';
+import { Link } from 'react-router-dom';
 import { BsEnvelope } from 'react-icons/bs';
 import { BsLock } from 'react-icons/bs';
 import Container  from '../../components/Conteiner';
@@ -21,10 +22,10 @@ export default function SignIn() {
                         <BsLock className="icon-modify-sign-in" />
                         <input type="password" placeholder="Senha" />
                     </label>
-                    <a href="#esqueceusenha" className="link-sign-in password">Esqueceu sua senha?</a>
+                    <Link to="#esqueceusenha" className="link-sign-in password">Esqueceu sua senha?</Link>
                     <button className="btn-sign-in">ENTRAR</button>
                 </form>
-                <a href="#paracadastro" className="link-sign-in">Cadastre-se</a>
+                <Link to="/cadastro" className="link-sign-in">Cadastre-se</Link>
             </Main>
         </Content>
     </Container>
