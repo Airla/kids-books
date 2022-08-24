@@ -6,15 +6,15 @@ import {
   // Outlets
 } from "react-router-dom";
 
-import SingIn from './pages/SingIn';
+import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 
 export default function MyRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<SingIn />} />
-        <Route path='/login' element={<SingIn />} />
+        <Route path='/' element={<SignIn />} />
+        <Route path='/login' element={<SignIn />} />
         <Route path='/cadastro' element={<SignUp />} />
       </Routes>
     </BrowserRouter>

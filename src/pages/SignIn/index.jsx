@@ -6,7 +6,7 @@ import Content from '../../components/Content';
 import Main from '../../components/Main';
 import Header from '../../components/Header';
 
-export default function SingIn() {
+export default function SignIn() {
     return(
     <Container>
         <Content>
