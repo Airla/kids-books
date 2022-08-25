@@ -8,6 +8,7 @@ import {
 
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
+import Ebooks from './pages/Ebooks';
 
 export default function MyRoutes() {
   return (
@@ -16,6 +17,7 @@ export default function MyRoutes() {
         <Route path='/' element={<SignIn />} />
         <Route path='/login' element={<SignIn />} />
         <Route path='/cadastro' element={<SignUp />} />
+        <Route path='/ebooks' element={<Ebooks />} />
       </Routes>
     </BrowserRouter>
   )
