@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nome": "json-server",
+      "email": "admin@admin.com",
+      "senha": "123",
+      "confirmSenha": "123"
+    },
+    {
+      "name": "airla@gma",
+      "email": "airlavcds@gmail.com",
+      "senha": "123",
+      "confirmSenha": "",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "senha": "",
+      "confirmSenha": "",
+      "id": 3
+    },
+    {
+      "name": "Airla",
+      "email": "airlavcds@gmail.com",
+      "senha": "123",
+      "confirmSenha": "123",
+      "id": 4
+    },
+    {
+      "name": "mycas",
+      "email": "mycas@m",
+      "senha": "123",
+      "confirmSenha": "kk",
+      "id": 5
+    },
+    {
+      "name": "Airla",
+      "email": "ad@admin.com",
+      "senha": "123",
+      "confirmSenha": "123",
+      "id": 6
+    }
+  ]
+}
